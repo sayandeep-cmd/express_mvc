@@ -16,4 +16,12 @@ exports.about=((req,res)=>{
         }
     })
 })
+exports.post=((req,res)=>{
+    res.render('post',{
+        title:'post',
+        content:{
+            paragraph:`Hello this is Sayandeep`
+        }
+    })
+})
 
